@@ -303,3 +303,99 @@ footer {
 	background-color: #656565;
 	text-align: center;
 }
+
+/* --- Contact Page --- */
+
+#Contact {
+	width: 47.81%;
+	border: solid #dddddd 2px;
+	background-color: white;
+	padding: 0 2.79% 2.79% 2.79%;
+}
+
+#ContactMe {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 300%;
+	font-weight: bold;
+	padding-bottom: 35px;
+	border-bottom: solid #dddddd 5px;
+}
+
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 120%;
+}
+
+form > div {
+	position: relative;
+	padding: 10px 0;
+}
+
+label {
+	font-size: 120%;
+}
+
+input {
+	position: relative;
+	width: 100%;
+	height: 25px;
+	margin-top: 10px;
+	font-size: 105%;
+}
+
+textarea {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	margin-top: 10px;
+}
+
+button {
+	width: 15%;
+	height: 50px;
+	font-size: 120%;
+	background-color: #4aaaa5;
+	color: white;
+}
+
+/* --- Portfolio Page --- */
+
+#Portfolio {
+	width: 47.81%;
+	border: solid #dddddd 2px;
+	background-color: white;
+	padding: 0 2.79% 2.79% 2.79%;
+}
+
+#PortfolioMe {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 300%;
+	font-weight: bold;
+	padding-bottom: 35px;
+	border-bottom: solid #dddddd 5px;
+}
+
+
+.linkImage {
+	float: left;
+	margin-bottom: 45px;
+}
+
+.linkImage:nth-child(odd) {
+	float: right;
+}
+
+.linkImage > img {
+	height: 230px;
+	width: 340px;
+	/*height: 145px;
+	width: 195px;*/
+}
+
+.linkTitle {
+	margin-bottom: 5px;
+	z-index: 2;
+}
