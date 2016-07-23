@@ -1,0 +1,305 @@
+body {
+	width: 100%;
+	margin: 0 0 0 0;
+}
+
+header {
+	height: 90px;
+	width: 100%;
+	padding-left: 12.35%;
+	padding-right: -17.53%;
+	background-color: white;
+	border-bottom: solid #cfcfcf 3px;
+	display: flex;
+	justify-content: space-between;
+	display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+}
+
+#name {
+	width: 30.28%;
+	height: 90px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 200%;
+	font-weight: bold;
+	margin-bottom: 0px;
+	position: relative;
+	overflow: hidden; /* Looking forward to covering responsive design */
+}
+
+#sitePages {
+	width: 20%;
+	height: 50px;
+	list-style-type: none;
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-decoration: none;
+	right: 26%;
+	padding: 0;
+}
+
+#sitePages > li {
+	text-align: center;
+	display: inline;
+	width: 28%;
+	height: 50px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 120%;
+	text-decoration: none;
+}
+
+/* #sitePages li a {
+	display: block;
+	width: 105px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 150%;
+	padding: 5px 25px;
+	text-decoration: none;
+	border: 1px dashed green;
+} */
+
+#navBarBorders {
+	border-right: solid #dddddd 2px;
+	border-left: solid #dddddd 2px;
+	text-decoration: none;
+	/* for redundency */
+	text-align: center;
+	display: inline;
+	width: 28%;
+	height: 50px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 120%;
+	text-decoration: none;
+}
+
+#navBarBorders > a {
+	/* for redundency */
+	text-align: center;
+	display: inline;
+	width: 28%;
+	height: 50px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 120%;
+	text-decoration: none;
+	padding: 0 3%;
+}
+
+#navBarAbout {
+	/* for redundency */
+	text-align: center;
+	display: inline;
+	width: 28%;
+	height: 50px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 120%;
+	text-decoration: none;
+	padding: 0 3%;
+}
+
+#navBarContact {
+	/* for redundency */
+	text-align: center;
+	display: inline;
+	width: 28%;
+	height: 50px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 120%;
+	text-decoration: none;
+	padding: 0 3%;
+}
+
+#sitePages > li:link {
+	text-decoration: none; /* This and the other a.xxx do not seem to be effectual */
+	/* for redundency */
+	text-align: center;
+	display: inline;
+	width: 28%;
+	height: 50px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 120%;
+	text-decoration: none;
+}
+
+#sitePages > li:visited {
+	text-decoration: none;
+	/* for redundency */
+	text-align: center;
+	display: inline;
+	width: 28%;
+	height: 50px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 120%;
+	text-decoration: none;
+}
+
+#sitePages > li:hover {
+	text-decoration: none;
+	background-color: #4aaaa5;
+	color: white;
+	/* for redundency */
+	text-align: center;
+	display: inline;
+	width: 28%;
+	height: 50px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 120%;
+}
+
+
+/*
+.active {
+	background-color: #777777;
+	color: white;
+}
+*/
+
+#main {
+	width: 100%;
+	background-image: url(../images/Pentagon_Merged_3.jpg); /* May require "" around the relative location */
+	background-size: 4px;
+	display: flex;
+	padding: 2.79% 15.94% 10% 12.35%;
+}
+
+#About {
+	width: 47.81%;
+	border: solid #dddddd 2px;
+	background-color: white;
+	padding: 0 2.79% 2.79% 2.79%;
+}
+
+#AboutMe {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 300%;
+	font-weight: bold;
+	padding-bottom: 35px;
+	border-bottom: solid #dddddd 5px;
+}
+
+#myPic {
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+
+
+.Bio-text {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 150%;
+}
+
+#Connect {
+	width: 250px;
+	height: 185px;
+	padding: 0 30px 30px 30px;
+	margin-left: 3.19%;
+	background-color: white;
+	border: solid #dddddd 2px;
+	text-decoration: none;
+}
+
+#connectWithMe {
+	font-size: 180%;
+	font-weight: bold;
+	color: #4aaaa5;
+	border-bottom: solid #dddddd 2px;
+	padding-bottom: 15px;
+}
+
+#socialImages {
+	text-decoration: none;
+	position: relative;
+	width: 68.56px;
+	height: 80px;
+	color: #dddddd;
+}
+
+/* Discovered through DevTools that this was adding padding from
+   'user agent stylesheet' */
+ul, menu, dir {
+	-webkit-padding-start: 0px;
+}
+
+.socialIconLI {
+	text-decoration: none;
+	display: inline;
+	width: 68.56px;
+	height: 80px;
+	color: #dddddd;
+}
+
+.socialIconLI:nth-child(2n) {
+	padding: 0 10px 0 10px;
+}
+
+.socialIcons {
+	text-decoration: none;
+	display: inline;
+	width: 68.56px;
+	height: 80px;
+	color: #dddddd;
+}
+
+.socialIcons > i{
+	width: 68.56px;
+	height: 80px;
+	text-decoration: none;
+	display: inline;
+	color: #dddddd;
+}
+
+.socialIcons > i:link {
+	text-decoration: none; /* This and the other a.xxx do not seem to be effectual */
+	width: 68.56px;
+	height: 80px;
+	color: #dddddd;
+}
+
+.socialIcons > i:visited {
+	text-decoration: none;
+	width: 68.56px;
+	height: 80px;
+	color: #dddddd;
+}
+
+.socialIcons > i:hover {
+	text-decoration: none;
+	width: 68.56px;
+	height: 80px;
+	color: #4aaaa5;
+}
+
+
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	height: 60px;
+	width: 100%;
+	border-top: solid #45ada6 5px;
+	clear: both; /* May not be needed */
+	color: #dddddd;
+	background-color: #656565;
+	text-align: center;
+}
